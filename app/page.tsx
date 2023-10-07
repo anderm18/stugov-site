@@ -22,7 +22,7 @@ export default async function Homepage(): Promise<JSX.Element> {
     return (
       <Box className="pattern cross-dots-light" sx={{backgroundColor: '#fde7e8', height: '100%'}}>
         <SplashHeader/>
-        <InfoGallery props={data}/>
+        <InfoGallery infoData={data}/>
       </Box>
     );
 }

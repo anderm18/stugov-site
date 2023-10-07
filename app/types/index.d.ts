@@ -1,8 +1,9 @@
 type InfoPanelResponse = [
     {
-      subheader: string,
-      header: string,
-      desc: string
+    subheader: string,
+    header: string,
+    desc: string,
+    img: string
     }
 ]
 
