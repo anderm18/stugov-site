@@ -1,6 +1,7 @@
 import { Box } from "@mui/material";
 import SplashHeader from "./components/Homepage/SplashHeader";
 import InfoGallery from "./components/Homepage/InfoGallery";
+import Footer from "./components/Homepage/Footer";
 import React from "react";
 import { GetStaticProps, InferGetStaticPropsType } from "next";
 
@@ -23,6 +24,8 @@ export default async function Homepage(): Promise<JSX.Element> {
       <Box className="pattern cross-dots-light" sx={{backgroundColor: '#fde7e8', height: '100%'}}>
         <SplashHeader/>
         <InfoGallery infoData={data}/>
+        <Footer/>
+        
       </Box>
     );
 }
