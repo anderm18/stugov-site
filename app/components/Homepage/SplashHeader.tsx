@@ -14,15 +14,7 @@ const Typer: ComponentType<{
 export default function SplashHeader(): JSX.Element {
     return(
         <>
-            {/* <AppBar sx={{position: 'absolute', backgroundColor: 'transparent', borderBottom: 'transparent', display: 'flex', flexDirection: 'row'}} elevation={0}>
-            <Box>
-            <img src="government.png" style={{marginTop: '20px', marginLeft: '20px', width: '60px', height: '30px', fontFamily: 'Segoe UI', fontWeight: 'bold'}} />
-            <Typography sx={{color: 'black', fontWeight: 'bold', marginTop: '25px', marginLeft: '10px'}}>
-                RPI Student Government
-            </Typography>
-            </Box>
-            </AppBar> */}
-            <Box className="diagonal-lines-light" style={{backgroundColor: '#ED1D24', height: '600px'}}>
+            <Box  style={{backgroundColor: '#ED1D24', height: '600px'}}>
                 <Typography sx={{color: '#fbd0d2', position: 'absolute', top: {xs: '100px', sm: '170px'}, left: {xs: '50px', sm: '80px', md: '100px', lg: '120px', xl: '140px'}, fontSize: {xs: '25pt', sm: '40pt', lg: '60pt'}, fontWeight: 'bold', zIndex: '10' }}>
                     Governing
                     <Typer strings={['change', 'innovation', 'technology']} style={{fontStyle: 'italic', fontFamily: 'Roboto'}} />

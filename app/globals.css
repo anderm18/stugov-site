@@ -3,6 +3,10 @@ html, body {
   padding: 0;
 }
 
+.filter_polygons {
+  filter: invert(16%) sepia(99%) saturate(3724%) hue-rotate(349deg) brightness(96%) contrast(94%);
+}
+
 .diagonal-lines-light {
   background-image: repeating-linear-gradient(-45deg, currentColor, currentColor 0.25px, transparent 0, transparent 50%);
   background-size: 20px 20px
@@ -29,4 +33,3 @@ html, body {
   background-size: calc(30 * 1px) calc(30 * 1px);
   background-position: 0 0, calc(15 * 5px) calc(15 * 5px)
 }
-
