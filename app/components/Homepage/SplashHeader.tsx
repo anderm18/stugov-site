@@ -2,6 +2,7 @@ import Avatar from "@mui/material/Avatar";
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
 import dynamic from "next/dynamic";
+import NavBar from './NavBar';
 import React, { ComponentType } from "react";
 
 const Typer: ComponentType<{
@@ -22,7 +23,7 @@ export default function SplashHeader(): JSX.Element {
                 <Avatar src='union.png' sx={{position: 'absolute', left: {xs: 'calc(100% - 272px)', sm:'calc(100% - 320px)', md: 'calc(100% - 450px)'}, top: {xs: '255px', sm:'200px', md: '150px'}, width: {xs: '250px', sm: '300px', md: '400px'}, height: {xs: '250px', sm: '300px', md: '400px'}, backgroundColor: 'transparent', borderRadius: '50%', zIndex: '1'}}/>
                 <Box sx={{float: 'right', width: '0', height: '0', borderLeft: {xs: '300px solid transparent', sm: '400px solid transparent', md: '600px solid transparent'}, borderRight: '0px solid transparent', borderBottom: '600px solid #760A0D'}}/>
             </Box>
-            <Box sx={{backgroundColor: '#760A0D', height: '20px', padding: '5px'}}/>
+            <NavBar />
         </>
     );
 }
