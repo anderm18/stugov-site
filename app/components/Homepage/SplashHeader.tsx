@@ -21,7 +21,7 @@ export default function SplashHeader(): JSX.Element {
                     <Typer strings={['change', 'innovation', 'technology']} style={{fontStyle: 'italic', fontFamily: 'Roboto'}} />
                 </Typography>
                 <Avatar src='union.png' sx={{position: 'absolute', left: {xs: 'calc(100% - 272px)', sm:'calc(100% - 320px)', md: 'calc(100% - 450px)'}, top: {xs: '255px', sm:'200px', md: '150px'}, width: {xs: '250px', sm: '300px', md: '400px'}, height: {xs: '250px', sm: '300px', md: '400px'}, backgroundColor: 'transparent', borderRadius: '50%', zIndex: '1'}}/>
-                <Box sx={{float: 'right', width: '0', height: '0', borderLeft: {xs: '300px solid transparent', sm: '400px solid transparent', md: '600px solid transparent'}, borderRight: '0px solid transparent', borderBottom: '600px solid #760A0D'}}/>
+                <Box sx={{float: 'right', width: '0', height: '0', borderLeft: {xs: '300px solid transparent', sm: '400px solid transparent', md: '600px solid transparent'}, borderRight: '0px solid', borderBottom: '600px solid #760A0D'}}/>
             </Box>
             <NavBar />
         </>
